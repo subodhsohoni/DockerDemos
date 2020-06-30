@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "J:\\Users\\Subodh\\Source\\Repos\\SSGSCMSLocal\\ApiApps\\ApiApps.csproj": {}
+  },
+  "projects": {
+    "J:\\Users\\Subodh\\Source\\Repos\\SSGSCMSLocal\\ApiApps\\ApiApps.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\Users\\Subodh\\Source\\Repos\\SSGSCMSLocal\\ApiApps\\ApiApps.csproj",
+        "projectName": "ApiApps",
+        "projectPath": "J:\\Users\\Subodh\\Source\\Repos\\SSGSCMSLocal\\ApiApps\\ApiApps.csproj",
+        "packagesPath": "J:\\Users\\Subodh\\.nuget\\packages\\",
+        "outputPath": "J:\\Users\\Subodh\\Source\\Repos\\SSGSCMSLocal\\ApiApps\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "J:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "J:\\Users\\Subodh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "J:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "J:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ssgs-in.pkgs.visualstudio.com/_packaging/SSGS/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "J:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
